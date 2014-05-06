@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A37D3A2A191952F6004F24FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37D3A29191952F6004F24FD /* Foundation.framework */; };
+		A37D3A2C191952F6004F24FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37D3A2B191952F6004F24FD /* CoreGraphics.framework */; };
+		A37D3A2E191952F6004F24FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37D3A2D191952F6004F24FD /* UIKit.framework */; };
+		A37D3A34191952F6004F24FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A37D3A32191952F6004F24FD /* InfoPlist.strings */; };
+		A37D3A36191952F6004F24FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A37D3A35191952F6004F24FD /* main.m */; };
+		A37D3A3A191952F6004F24FD /* SPINIMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A37D3A39191952F6004F24FD /* SPINIMAppDelegate.m */; };
+		A37D3A3D191952F6004F24FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37D3A3B191952F6004F24FD /* Main.storyboard */; };
+		A37D3A40191952F6004F24FD /* SPINIMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A37D3A3F191952F6004F24FD /* SPINIMViewController.m */; };
+		A37D3A42191952F7004F24FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37D3A41191952F7004F24FD /* Images.xcassets */; };
+		A37D3A49191952F7004F24FD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37D3A48191952F7004F24FD /* XCTest.framework */; };
+		A37D3A4A191952F7004F24FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37D3A29191952F6004F24FD /* Foundation.framework */; };
+		A37D3A4B191952F7004F24FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37D3A2D191952F6004F24FD /* UIKit.framework */; };
+		A37D3A53191952F7004F24FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A37D3A51191952F7004F24FD /* InfoPlist.strings */; };
+		A37D3A55191952F7004F24FD /* FastCaptureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A37D3A54191952F7004F24FD /* FastCaptureTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A37D3A4C191952F7004F24FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A37D3A1E191952F6004F24FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A37D3A25191952F6004F24FD;
+			remoteInfo = FastCapture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A37D3A26191952F6004F24FD /* FastCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37D3A29191952F6004F24FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A37D3A2B191952F6004F24FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A37D3A2D191952F6004F24FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A37D3A31191952F6004F24FD /* FastCapture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FastCapture-Info.plist"; sourceTree = "<group>"; };
+		A37D3A33191952F6004F24FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A37D3A35191952F6004F24FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A37D3A37191952F6004F24FD /* FastCapture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FastCapture-Prefix.pch"; sourceTree = "<group>"; };
+		A37D3A38191952F6004F24FD /* SPINIMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPINIMAppDelegate.h; sourceTree = "<group>"; };
+		A37D3A39191952F6004F24FD /* SPINIMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPINIMAppDelegate.m; sourceTree = "<group>"; };
+		A37D3A3C191952F6004F24FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A37D3A3E191952F6004F24FD /* SPINIMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPINIMViewController.h; sourceTree = "<group>"; };
+		A37D3A3F191952F6004F24FD /* SPINIMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPINIMViewController.m; sourceTree = "<group>"; };
+		A37D3A41191952F7004F24FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A37D3A47191952F7004F24FD /* FastCaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastCaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37D3A48191952F7004F24FD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A37D3A50191952F7004F24FD /* FastCaptureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FastCaptureTests-Info.plist"; sourceTree = "<group>"; };
+		A37D3A52191952F7004F24FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A37D3A54191952F7004F24FD /* FastCaptureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastCaptureTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A37D3A23191952F6004F24FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37D3A2C191952F6004F24FD /* CoreGraphics.framework in Frameworks */,
+				A37D3A2E191952F6004F24FD /* UIKit.framework in Frameworks */,
+				A37D3A2A191952F6004F24FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37D3A44191952F7004F24FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37D3A49191952F7004F24FD /* XCTest.framework in Frameworks */,
+				A37D3A4B191952F7004F24FD /* UIKit.framework in Frameworks */,
+				A37D3A4A191952F7004F24FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A37D3A1D191952F6004F24FD = {
+			isa = PBXGroup;
+			children = (
+				A37D3A2F191952F6004F24FD /* FastCapture */,
+				A37D3A4E191952F7004F24FD /* FastCaptureTests */,
+				A37D3A28191952F6004F24FD /* Frameworks */,
+				A37D3A27191952F6004F24FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A37D3A27191952F6004F24FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A37D3A26191952F6004F24FD /* FastCapture.app */,
+				A37D3A47191952F7004F24FD /* FastCaptureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A37D3A28191952F6004F24FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A37D3A29191952F6004F24FD /* Foundation.framework */,
+				A37D3A2B191952F6004F24FD /* CoreGraphics.framework */,
+				A37D3A2D191952F6004F24FD /* UIKit.framework */,
+				A37D3A48191952F7004F24FD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A37D3A2F191952F6004F24FD /* FastCapture */ = {
+			isa = PBXGroup;
+			children = (
+				A37D3A38191952F6004F24FD /* SPINIMAppDelegate.h */,
+				A37D3A39191952F6004F24FD /* SPINIMAppDelegate.m */,
+				A37D3A3B191952F6004F24FD /* Main.storyboard */,
+				A37D3A3E191952F6004F24FD /* SPINIMViewController.h */,
+				A37D3A3F191952F6004F24FD /* SPINIMViewController.m */,
+				A37D3A41191952F7004F24FD /* Images.xcassets */,
+				A37D3A30191952F6004F24FD /* Supporting Files */,
+			);
+			path = FastCapture;
+			sourceTree = "<group>";
+		};
+		A37D3A30191952F6004F24FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A37D3A31191952F6004F24FD /* FastCapture-Info.plist */,
+				A37D3A32191952F6004F24FD /* InfoPlist.strings */,
+				A37D3A35191952F6004F24FD /* main.m */,
+				A37D3A37191952F6004F24FD /* FastCapture-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A37D3A4E191952F7004F24FD /* FastCaptureTests */ = {
+			isa = PBXGroup;
+			children = (
+				A37D3A54191952F7004F24FD /* FastCaptureTests.m */,
+				A37D3A4F191952F7004F24FD /* Supporting Files */,
+			);
+			path = FastCaptureTests;
+			sourceTree = "<group>";
+		};
+		A37D3A4F191952F7004F24FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A37D3A50191952F7004F24FD /* FastCaptureTests-Info.plist */,
+				A37D3A51191952F7004F24FD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A37D3A25191952F6004F24FD /* FastCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A37D3A58191952F7004F24FD /* Build configuration list for PBXNativeTarget "FastCapture" */;
+			buildPhases = (
+				A37D3A22191952F6004F24FD /* Sources */,
+				A37D3A23191952F6004F24FD /* Frameworks */,
+				A37D3A24191952F6004F24FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastCapture;
+			productName = FastCapture;
+			productReference = A37D3A26191952F6004F24FD /* FastCapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A37D3A46191952F7004F24FD /* FastCaptureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A37D3A5B191952F7004F24FD /* Build configuration list for PBXNativeTarget "FastCaptureTests" */;
+			buildPhases = (
+				A37D3A43191952F7004F24FD /* Sources */,
+				A37D3A44191952F7004F24FD /* Frameworks */,
+				A37D3A45191952F7004F24FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A37D3A4D191952F7004F24FD /* PBXTargetDependency */,
+			);
+			name = FastCaptureTests;
+			productName = FastCaptureTests;
+			productReference = A37D3A47191952F7004F24FD /* FastCaptureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A37D3A1E191952F6004F24FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SPINIM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "RCM Software LLC";
+				TargetAttributes = {
+					A37D3A46191952F7004F24FD = {
+						TestTargetID = A37D3A25191952F6004F24FD;
+					};
+				};
+			};
+			buildConfigurationList = A37D3A21191952F6004F24FD /* Build configuration list for PBXProject "FastCapture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A37D3A1D191952F6004F24FD;
+			productRefGroup = A37D3A27191952F6004F24FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A37D3A25191952F6004F24FD /* FastCapture */,
+				A37D3A46191952F7004F24FD /* FastCaptureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A37D3A24191952F6004F24FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37D3A42191952F7004F24FD /* Images.xcassets in Resources */,
+				A37D3A34191952F6004F24FD /* InfoPlist.strings in Resources */,
+				A37D3A3D191952F6004F24FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37D3A45191952F7004F24FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37D3A53191952F7004F24FD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A37D3A22191952F6004F24FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37D3A40191952F6004F24FD /* SPINIMViewController.m in Sources */,
+				A37D3A3A191952F6004F24FD /* SPINIMAppDelegate.m in Sources */,
+				A37D3A36191952F6004F24FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37D3A43191952F7004F24FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37D3A55191952F7004F24FD /* FastCaptureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A37D3A4D191952F7004F24FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A37D3A25191952F6004F24FD /* FastCapture */;
+			targetProxy = A37D3A4C191952F7004F24FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A37D3A32191952F6004F24FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A37D3A33191952F6004F24FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A37D3A3B191952F6004F24FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A37D3A3C191952F6004F24FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A37D3A51191952F7004F24FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A37D3A52191952F7004F24FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A37D3A56191952F7004F24FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A37D3A57191952F7004F24FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A37D3A59191952F7004F24FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FastCapture/FastCapture-Prefix.pch";
+				INFOPLIST_FILE = "FastCapture/FastCapture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A37D3A5A191952F7004F24FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FastCapture/FastCapture-Prefix.pch";
+				INFOPLIST_FILE = "FastCapture/FastCapture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A37D3A5C191952F7004F24FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FastCapture.app/FastCapture";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FastCapture/FastCapture-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FastCaptureTests/FastCaptureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A37D3A5D191952F7004F24FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FastCapture.app/FastCapture";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FastCapture/FastCapture-Prefix.pch";
+				INFOPLIST_FILE = "FastCaptureTests/FastCaptureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A37D3A21191952F6004F24FD /* Build configuration list for PBXProject "FastCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37D3A56191952F7004F24FD /* Debug */,
+				A37D3A57191952F7004F24FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A37D3A58191952F7004F24FD /* Build configuration list for PBXNativeTarget "FastCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37D3A59191952F7004F24FD /* Debug */,
+				A37D3A5A191952F7004F24FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A37D3A5B191952F7004F24FD /* Build configuration list for PBXNativeTarget "FastCaptureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37D3A5C191952F7004F24FD /* Debug */,
+				A37D3A5D191952F7004F24FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A37D3A1E191952F6004F24FD /* Project object */;
+}
