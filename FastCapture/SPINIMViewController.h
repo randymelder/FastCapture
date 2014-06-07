@@ -10,7 +10,6 @@
 
 @interface SPINIMViewController : UIViewController 
 @property (strong, nonatomic) IBOutlet UIImageView *myImageView;
-@property (strong, nonatomic) IBOutlet UIButton *recordButton;
 @property (strong, nonatomic) IBOutlet UIImageView *playButtonImage;
 @property (strong, nonatomic) IBOutlet UILabel *secondsLabel;
 @property (strong, nonatomic) IBOutlet UIImageView *settingsImage;
