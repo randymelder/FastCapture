@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SPINIMViewController : UIViewController
+@interface SPINIMViewController : UIViewController 
+@property (strong, nonatomic) IBOutlet UIImageView *myImageView;
+@property (strong, nonatomic) IBOutlet UIButton *recordButton;
+@property (strong, nonatomic) IBOutlet UIImageView *playButtonImage;
+@property (strong, nonatomic) IBOutlet UILabel *secondsLabel;
+@property (strong, nonatomic) IBOutlet UIImageView *settingsImage;
 
+- (IBAction)doStartButton:(id)sender;
+- (IBAction)doStopButton:(id)sender;
 @end
